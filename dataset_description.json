@@ -1,0 +1,8 @@
+{
+    "Name": "LPP MEG Listen",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "Corentin Bel", "Julie Bonnaire","Christophe Pallier", "Jean-Rémi King"
+    ]
+}
