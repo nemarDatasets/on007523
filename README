@@ -4,7 +4,7 @@ This dataset contains magnetoencephalography (MEG) recordings collected
 while participants listened to the French audiobook of *Le Petit Prince*
 by Antoine de Saint-Exupéry.
 
-A complementary MEG dataset from the same project, using a visual reading (RSVP) paradigm, is available on OpenNeuro (accession number: ds007148).
+A complementary MEG dataset from the same project, using a reading (RSVP) paradigm, is available on OpenNeuro (accession number: ds007524).
 
 This data is analyzed in:
 
@@ -85,7 +85,6 @@ The root directory includes:
 -   `task-listen_events.json`
 -   `sub-01` to `sub-58`
 -   `sourcedata/`
--   `derivatives/`
 
 Each subject directory (`sub-XX`) contains one session (`ses-01`) with:
 
@@ -104,17 +103,6 @@ Each run corresponds to one audiobook segment.
 
 Acquisition parameters are provided in the corresponding sidecar JSON
 files.
-
-### Derivatives
-
-The `derivatives/` directory contains:
-
--   `freesurfer/`: subject-specific FreeSurfer reconstructions and morph
-    maps
--   `preprocessed_data/`: preprocessed MEG data (including SSS-processed
-    files), forward and inverse solutions, noise covariance matrices,
-    source spaces, transformation files, evoked data, and source time
-    courses. A group-level file (`stc_avg.h5`) is also included.
 
 ------------------------------------------------------------------------
 
