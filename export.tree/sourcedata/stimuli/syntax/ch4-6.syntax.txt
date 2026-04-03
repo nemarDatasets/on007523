@@ -1,1 +1,0 @@
-../../../.git/annex/objects/6M/Gg/SHA256E-s31993--a428376df036a0fcfa910d8db5ffc287e5caaa32a7e98a75b2f81bcd4f3fc3a9.syntax.txt/SHA256E-s31993--a428376df036a0fcfa910d8db5ffc287e5caaa32a7e98a75b2f81bcd4f3fc3a9.syntax.txt
