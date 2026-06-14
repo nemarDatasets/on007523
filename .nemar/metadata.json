@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007523",
+  "source": "openneuro",
+  "source_id": "ds007523",
+  "title": "LittlePrince_MEG_French_Listen_Pallier2025",
+  "authors": {
+    "Corentin Bel": {},
+    "Julie Bonnaire": {},
+    "Christophe Pallier": {},
+    "Jean-Rémi King": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007523.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "anat",
+    "meg"
+  ],
+  "datatypes": [
+    "anat",
+    "meg"
+  ]
+}
