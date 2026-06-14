@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "LittlePrince_MEG_French_Listen_Pallier2025",
+  "description": "This dataset comprises magnetoencephalography (MEG) recordings from 58 healthy French-speaking adults listening to the French audiobook of *Le Petit Prince*. Participants completed 9 runs of continuous listening while MEG data were acquired at 1000 Hz using a whole-head Elekta Neuromag TRIUX system, with concurrent electrooculography and electrocardiography. High-resolution T1-weighted anatomical MRI scans were acquired for each participant to enable source localization and cortical surface reconstruction.",
+  "methods_description": "MEG data were recorded continuously at 1000 Hz using a whole-head Elekta Neuromag TRIUX system (102 magnetometers, 204 planar gradiometers) with online filtering (0.1–330 Hz). Auditory stimuli were delivered through MEG-compatible earphones at individually adjusted comfortable listening levels. Vertical and horizontal electrooculograms and electrocardiograms were recorded simultaneously using bipolar electrodes. High-resolution T1-weighted anatomical MRI scans were acquired on a 3T Siemens Magnetom Prisma scanner using a standard MPRAGE sequence for coregistration and source analysis.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +14,50 @@
     },
     "Jean-Rémi King": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007523.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     },
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "language comprehension"
+    },
+    {
+      "term": "naturalistic listening"
+    },
+    {
+      "term": "brain imaging"
+    },
+    {
+      "term": "French language"
+    },
+    {
+      "term": "continuous listening"
+    },
+    {
+      "term": "audiobook"
+    },
+    {
+      "term": "Le Petit Prince"
+    },
+    {
+      "term": "naturalistic stimuli"
+    },
+    {
+      "term": "source localization"
+    },
+    {
+      "term": "Elekta Neuromag TRIUX"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007523",
       "identifier_type": "URL",
@@ -47,14 +87,19 @@
       "identifier": "10.18112/openneuro.ds007524",
       "identifier_type": "DOI",
       "relation_type": "IsPartOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007523.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "meg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
     "477.7 GB (642 files)"
   ],
@@ -73,38 +118,5 @@
     ".wav",
     ".yml"
   ],
-  "description": "This dataset comprises magnetoencephalography (MEG) recordings from 58 healthy French-speaking adults listening to the French audiobook of *Le Petit Prince*. The continuous listening paradigm spans 9 runs (~10 minutes each) with simultaneous acquisition of EOG and ECG signals, complemented by high-resolution T1-weighted anatomical MRI scans for source localization. The dataset supports research on neural decoding of linguistic content from non-invasive brain recordings.",
-  "methods_description": "MEG data were recorded using a whole-head Elekta Neuromag TRIUX system (102 magnetometers, 204 planar gradiometers) at 1000 Hz sampling rate with online filtering (0.1–330 Hz). Bipolar EOG and ECG electrodes monitored eye movements and cardiac activity. Auditory stimuli were delivered via MEG-compatible earphones at individually adjusted comfortable listening levels. High-resolution T1-weighted anatomical MRI scans were acquired on a 3T Siemens Magnetom Prisma using MPRAGE sequence for coregistration and cortical surface reconstruction.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
-    },
-    {
-      "term": "auditory processing"
-    },
-    {
-      "term": "language comprehension"
-    },
-    {
-      "term": "naturalistic listening"
-    },
-    {
-      "term": "French language"
-    },
-    {
-      "term": "source localization"
-    },
-    {
-      "term": "audiobook"
-    },
-    {
-      "term": "neural decoding"
-    }
-  ],
-  "source_hash": "166e86c54efa65213e747f1f82592c2840cb02ad310a2a92650f851b41f233dc"
+  "source_hash": "66e20636c4b7f5fc7fa32d4a95b5b05d170cf39ec1992ebc4d91358a101112c3"
 }
