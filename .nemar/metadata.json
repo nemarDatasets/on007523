@@ -1,32 +1,110 @@
 {
   "version": "2.0",
-  "dataset_id": "on007523",
-  "source": "openneuro",
-  "source_id": "ds007523",
+  "pipeline_stage": "enriched",
   "title": "LittlePrince_MEG_French_Listen_Pallier2025",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Corentin Bel": {},
     "Julie Bonnaire": {},
-    "Christophe Pallier": {},
+    "Christophe Pallier": {
+      "orcid": "0000-0002-3324-666X"
+    },
     "Jean-Rémi King": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007523.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007523",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007523",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41467-025-65499-0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/sdata.2018.110",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-022-01625-7",
+      "identifier_type": "DOI",
+      "relation_type": "IsSupplementedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007524",
+      "identifier_type": "DOI",
+      "relation_type": "IsPartOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "anat",
     "meg"
   ],
-  "datatypes": [
-    "anat",
-    "meg"
-  ]
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "477.7 GB (642 files)"
+  ],
+  "formats": [
+    ".TextGrid",
+    ".csv",
+    ".dat",
+    ".fif",
+    ".gz",
+    ".json",
+    ".md",
+    ".py",
+    ".sh",
+    ".tsv",
+    ".txt",
+    ".wav",
+    ".yml"
+  ],
+  "description": "This dataset comprises magnetoencephalography (MEG) recordings from 58 healthy French-speaking adults listening to the French audiobook of *Le Petit Prince*. The continuous listening paradigm spans 9 runs (~10 minutes each) with simultaneous acquisition of EOG and ECG signals, complemented by high-resolution T1-weighted anatomical MRI scans for source localization. The dataset supports research on neural decoding of linguistic content from non-invasive brain recordings.",
+  "methods_description": "MEG data were recorded using a whole-head Elekta Neuromag TRIUX system (102 magnetometers, 204 planar gradiometers) at 1000 Hz sampling rate with online filtering (0.1–330 Hz). Bipolar EOG and ECG electrodes monitored eye movements and cardiac activity. Auditory stimuli were delivered via MEG-compatible earphones at individually adjusted comfortable listening levels. High-resolution T1-weighted anatomical MRI scans were acquired on a 3T Siemens Magnetom Prisma using MPRAGE sequence for coregistration and cortical surface reconstruction.",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "language comprehension"
+    },
+    {
+      "term": "naturalistic listening"
+    },
+    {
+      "term": "French language"
+    },
+    {
+      "term": "source localization"
+    },
+    {
+      "term": "audiobook"
+    },
+    {
+      "term": "neural decoding"
+    }
+  ],
+  "source_hash": "166e86c54efa65213e747f1f82592c2840cb02ad310a2a92650f851b41f233dc"
 }
