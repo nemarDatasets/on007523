@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "LittlePrince_MEG_French_Listen_Pallier2025",
-  "description": "This dataset comprises magnetoencephalography (MEG) recordings from 58 healthy native French speakers who listened to the French audiobook of *Le Petit Prince* during continuous neural monitoring. The study employed a whole-head Elekta Neuromag TRIUX MEG system with simultaneous electrooculography and electrocardiography, along with high-resolution anatomical MRI for source localization. The dataset supports research on neural decoding of individual words from non-invasive brain recordings during naturalistic language comprehension.",
-  "methods_description": "MEG data were recorded continuously at 1000 Hz sampling rate using a whole-head Elekta Neuromag TRIUX system (102 magnetometers, 204 planar gradiometers) with online filtering (0.1–330 Hz). Vertical and horizontal electrooculograms and electrocardiogram were recorded simultaneously via bipolar electrodes. Auditory stimuli were delivered through MEG-compatible earphones at individually adjusted comfortable listening levels. High-resolution T1-weighted anatomical MRI scans were acquired on a 3T Siemens Magnetom Prisma scanner using a standard MPRAGE sequence for coregistration and cortical surface reconstruction.",
+  "description": "This dataset comprises magnetoencephalography (MEG) recordings from 58 healthy French-speaking adults listening to the French audiobook of *Le Petit Prince*. Participants completed 9 runs of continuous listening while MEG signals were recorded alongside electrooculography and electrocardiography. High-resolution anatomical MRI scans were acquired for each participant to enable source localization and cortical surface reconstruction, supporting investigations of neural language processing during naturalistic speech comprehension.",
+  "methods_description": "MEG data were recorded using a whole-head Elekta Neuromag TRIUX system (102 magnetometers, 204 planar gradiometers) at 1000 Hz sampling rate with online filtering (0.1–330 Hz). Simultaneous EOG and ECG recordings monitored eye movements and cardiac activity. Auditory stimuli were delivered via MEG-compatible earphones at individually adjusted comfortable listening levels. High-resolution T1-weighted anatomical MRI scans were acquired on a 3T Siemens Magnetom Prisma scanner using MPRAGE sequence for coregistration and source analysis.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,24 +16,32 @@
   },
   "keywords": [
     {
+      "term": "MEG",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
       "term": "Magnetoencephalography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     },
     {
-      "term": "MEG"
-    },
-    {
-      "term": "language comprehension"
+      "term": "language processing",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007806"
     },
     {
       "term": "naturalistic listening"
     },
     {
-      "term": "neural decoding"
+      "term": "speech comprehension",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013066"
     },
     {
-      "term": "French audiobook"
+      "term": "auditory processing",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
     },
     {
       "term": "source localization"
@@ -99,6 +107,12 @@
     ".txt",
     ".wav",
     ".yml"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "French National Research Agency (Agence Nationale de la Recherche)",
+      "award_number": "ANR-17-EURE-0017"
+    }
   ],
   "source_hash": "66e20636c4b7f5fc7fa32d4a95b5b05d170cf39ec1992ebc4d91358a101112c3"
 }
